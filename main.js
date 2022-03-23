@@ -59,4 +59,4 @@ while (pAequorStorage.length < 30) {
   e.willLikelySurvive() ? pAequorStorage.push(e) : false;
 }
 
-window.onload = () => document.querySelector("p").innerHTML = pAequorStorage;
+window.onload = () => document.write(JSON.stringify(pAequorStorage));
