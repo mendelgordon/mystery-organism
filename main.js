@@ -58,3 +58,5 @@ while (pAequorStorage.length < 30) {
   const e = pAequorFactory();
   e.willLikelySurvive() ? pAequorStorage.push(e) : false;
 }
+
+window.onload = () => document.querySelector("p").innerHTML = pAequorStorage;
